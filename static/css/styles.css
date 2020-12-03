@@ -1,0 +1,29 @@
+.bar:hover {
+  fill: white;
+}
+
+.bar {
+  fill: blue;
+}
+
+#tooltip {
+  position: absolute;
+  width: 120px;
+  height: 70px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  text-justify: center;
+  justify-content: center;
+  align-content: center;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+#tooltip p {
+  padding: 0;
+  margin: 1px;
+  text-justify: center;
+}
